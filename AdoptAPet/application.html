@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt-A-Pet</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom, black, #a99a86 ); 
+      color: white; 
+      margin: 0;
+      height: 100vh; 
+    }
+
+  </style>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<header>
+  <img src="images/header2.jpg" alt="Header Image with Various Pets" class="header-image" width = "1800" height ="900">
+  <h1>Welcome to Adopt-A-Pet!</h1>
+</header>
+
+
+<nav>
+  <a href="homepage.html" class="nav-link">Homepage</a> 
+  <a href="viewpets.html" class="nav-link">View Pets</a>
+</nav>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Adoption Application</h1>
+  </header>
+
+  <main>
+    <form id="adoption-form">
+      <label for="applicantName">Full Name:</label>
+      <input type="text" id="applicantName" name="applicantName" required>
+      
+      <label for="applicantEmail">Email:</label>
+      <input type="email" id="applicantEmail" name="applicantEmail" required>
+
+      <label for="applicantPhone">Phone Number:</label>
+      <input type="tel" id="applicantPhone" name="applicantPhone" required>
+	  
+      <label for="applicantAddress">Address:</label>
+      <input type="tel" id="applicantAddress" name="applicantAddress" required>
+
+      <label for="petType">Type of Pet:</label>
+      <select id="petType" name="petType" required>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="petName">Name of Pet:</label>
+      <input type="text" id="petName" name="petName">
+
+      <label for="reason">Reason for Adoption:</label>
+      <textarea id="reason" name="reason" required></textarea>
+
+      <input type="submit" value="Submit Application">
+    </form>
+  </main>
+  
+	
+	<footer>
+		<p>By Cindy Sandoval For CSC 340-02</p>
+		<p>All images were taken by Cindy Sandoval</p>
+	</footer>
+
+</body>
+</html>
